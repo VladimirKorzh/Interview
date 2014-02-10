@@ -1,0 +1,33 @@
+
+~~~ cPathfinder Unit Test ~~~
+
+choice: 3
+~~~ UnitTest_Pathfinder ~~~ 
+Map filename: 100mbTraversable.map
+Map size(bytes): 100000000
+Map dimemsions: 10000x10000
+Start (0,0)    Target (9999,9999)
+Use Manhattan Bbox Optimization: true
+Use Multiple Threads Optimization: true
+Allocating memory...Done
+Loading Map from file...Done
+Starting the search...From Corners.
+Starting Pathfinder workers...Done
+Waiting for handshake...
+Result: false, Nodes Checked 16923986
+Result: false, Nodes Checked 16943986
+Search complete. Joining threads.
+Threads joined.
+Allocating Memory for intermediate buffers...Done
+Handshake is found. Reconstructing path...
+Reconstruction complete. Path length: 28960
+Execution time: 102119 milliseconds
+Starting the search...From points in the middle.
+Starting Pathfinder workers...Done
+Waiting for handshake...
+Result: false, Nodes Checked 1351
+Result: false, Nodes Checked 1351
+Search complete. Joining threads.
+Threads joined.
+Handshake not found. Path does not exist
+Execution time: 100 milliseconds

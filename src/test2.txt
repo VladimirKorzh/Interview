@@ -1,0 +1,19 @@
+
+~~~ cPathfinder Unit Test ~~~
+
+
+~~~ UnitTest_Pathfinder ~~~ 
+Map filename: 100mbTraversable.map
+Map size(bytes): 100000000
+Map dimemsions: 10000x10000
+Start (0,0)    Target (9999,9999)
+Use Manhattan Bbox Optimization: true
+Use Multiple Threads Optimization: false
+Allocating memory...Done
+Loading Map from file...Done
+Starting the search...From Corners.
+Result: true, Nodes Checked 45791398
+Execution time: 142330 milliseconds
+Starting the search...From points in the middle.
+Result: false, Nodes Checked 1351
+Execution time: 0 milliseconds

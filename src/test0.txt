@@ -1,0 +1,43 @@
+
+~~~ cPathfinder Unit Test ~~~
+
+
+
+~~~ Load Save Unit test ~~~ 
+~~~ Before load ~~~
+FindPath | PrintMap | _ # _ _ _ # _ _ _ _  |
+FindPath | PrintMap | _ # _ # _ # _ # # _  |
+FindPath | PrintMap | _ # _ # _ # _ # _ _  |
+FindPath | PrintMap | _ # _ # _ # _ # _ #  |
+FindPath | PrintMap | _ # _ # _ # _ # _ _  |
+FindPath | PrintMap | _ # _ # _ # _ # # _  |
+FindPath | PrintMap | _ # _ # _ # _ # _ _  |
+FindPath | PrintMap | _ # _ # _ # _ # _ #  |
+FindPath | PrintMap | _ # _ # _ # _ # _ _  |
+FindPath | PrintMap | _ _ _ # _ _ _ # # _  |
+Saving map to file...Done
+
+~~~ Nullifying the array ~~~
+FindPath | PrintMap | # # # # # # # # # #  |
+FindPath | PrintMap | # # # # # # # # # #  |
+FindPath | PrintMap | # # # # # # # # # #  |
+FindPath | PrintMap | # # # # # # # # # #  |
+FindPath | PrintMap | # # # # # # # # # #  |
+FindPath | PrintMap | # # # # # # # # # #  |
+FindPath | PrintMap | # # # # # # # # # #  |
+FindPath | PrintMap | # # # # # # # # # #  |
+FindPath | PrintMap | # # # # # # # # # #  |
+FindPath | PrintMap | # # # # # # # # # #  |
+Loading Map from file...Done
+
+~~~ After Load ~~~
+FindPath | PrintMap | _ # _ _ _ # _ _ _ _  |
+FindPath | PrintMap | _ # _ # _ # _ # # _  |
+FindPath | PrintMap | _ # _ # _ # _ # _ _  |
+FindPath | PrintMap | _ # _ # _ # _ # _ #  |
+FindPath | PrintMap | _ # _ # _ # _ # _ _  |
+FindPath | PrintMap | _ # _ # _ # _ # # _  |
+FindPath | PrintMap | _ # _ # _ # _ # _ _  |
+FindPath | PrintMap | _ # _ # _ # _ # _ #  |
+FindPath | PrintMap | _ # _ # _ # _ # _ _  |
+FindPath | PrintMap | _ _ _ # _ _ _ # # _  |
